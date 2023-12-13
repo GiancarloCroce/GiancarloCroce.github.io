@@ -1,84 +1,143 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@article{croce2023deep,
+	title={Deep learning predictions of TCR-epitope interactions reveal epitope-specific chains in dual alpha T cells},
+	author={Croce, Giancarlo and Bobisse, Sara and Moreno, Dana Lea and Schmidt, Julien and Guillame, Philippe and Harari, Alexandre and Gfeller, David},
+	journal={bioRxiv},
+	pages={2023--09},
+	year={2023},
+	publisher={Cold Spring Harbor Laboratory},
+	pdf={https://www.biorxiv.org/content/10.1101/2023.09.13.557561v1.full.pdf+html},
+	preview={TCR_epi.png},
+	abstract={T cells have the ability to eliminate infected and cancer cells and play an essential role in cancer immunotherapy. T-cell activation is elicited by the binding of the T-cell receptor (TCR) to epitopes displayed on MHC molecules, and the TCR specificity is determined by the sequence of its α and β chains. Here, we collected and curated a dataset of 17,715 αβTCRs interacting with dozens of class I and class II epitopes. We used this curated data to develop MixTCRpred, a deep learning TCR-epitope interaction predictor. MixTCRpred accurately predicts TCRs recognizing several viral and cancer epitopes. MixTCRpred further provides a useful quality control tool for multiplexed single-cell TCR sequencing assays of epitope-specific T cells and pinpoints a substantial fraction of putative contaminants in public databases. Analysis of epitope-specific dual α T cells demonstrates that MixTCRpred can identify α chains mediating epitope recognition. Applying MixTCRpred to TCR repertoires from COVID-19 patients reveals enrichment of clonotypes predicted to bind an immunodominant SARS-CoV-2 epitope. Overall, MixTCRpred provides a robust tool to predict TCRs interacting with specific epitopes and interpret TCR-sequencing data from both bulk and epitope-specific T cells.},
+	selected={true}
+	}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+
+@article{rodriguez2022epistatic,
+	title={Epistatic models predict mutable sites in SARS-CoV-2 proteins and epitopes},
+	author={Rodriguez-Rivas*, Juan and Croce*, Giancarlo and Muscat, Maureen and Weigt, Martin},
+	journal={Proceedings of the National Academy of Sciences},
+	volume={119},
+	number={4},
+	pages={e2113118119},
+	year={2022},
+	publisher={National Acad Sciences},
+	url={https://www.pnas.org/doi/abs/10.1073/pnas.2113118119},
+	pdf={https://www.pnas.org/doi/10.1073/pnas.2113118119},
+	abstract={During the COVID pandemic, new severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) variants emerge and spread, some being of major concern due to their increased infectivity or capacity to reduce vaccine efficiency. Anticipating mutations, which might give rise to new variants, would be of great interest. We construct sequence models predicting how mutable SARS-CoV-2 positions are, using a single SARS-CoV-2 sequence and databases of other coronaviruses. Predictions are tested against available mutagenesis data and the observed variability of SARS-CoV-2 proteins. Interestingly, predictions agree increasingly with observations, as more SARS-CoV-2 sequences become available. Combining predictions with immunological data, we find an overrepresentation of mutations in current variants of concern. The approach may become relevant for potential outbreaks of future viral diseases.},
+	preview={DCA_covid.png},
+	selected={true}
+	}
+
+
+@article{croce2019multi,
+	title={A multi-scale coevolutionary approach to predict interactions between protein domains},
+	author={Croce, Giancarlo and Gueudr{\'e}, Thomas and Ruiz Cuevas, Maria Virginia and Keidel, Victoria and Figliuzzi, Matteo and Szurmant, Hendrik and Weigt, Martin},
+	journal={PLoS computational biology},
+	volume={15},
+	number={10},
+	pages={e1006891},
+	year={2019},
+	publisher={Public Library of Science San Francisco, CA USA},
+	url={https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006891},
+	doi={https://doi.org/10.1371/journal.pcbi.1006891},
+	abstract={Interacting proteins and protein domains coevolve on multiple scales, from their correlated
+		presence across species, to correlations in amino-acid usage. Genomic databases provide
+			rapidly growing data for variability in genomic protein content and in protein sequences, calling for computational predictions of unknown interactions. We first introduce the concept of
+			direct phyletic couplings, based on global statistical models of phylogenetic profiles. They
+			strongly increase the accuracy of predicting pairs of related protein domains beyond simpler
+			correlation-based approaches like phylogenetic profiling (80% vs. 30–50% positives out of
+					the 1000 highest-scoring pairs). Combined with the direct coupling analysis of inter-protein
+			residue-residue coevolution, we provide multi-scale evidence for direct but unknown interaction between protein families. An in-depth discussion shows these to be biologically sensible
+			and directly experimentally testable. Negative phyletic couplings highlight alternative solutions for the same functionality, including documented cases of convergent evolution.
+			Thereby our work proves the strong potential of global statistical modeling approaches to
+			genome-wide coevolutionary analysis, far beyond the established use for individual protein
+			complexes and domain-domain interactions.},
+	pdf={https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006891}
+	}
+
+
+
+
+@article{cocco2019adaptive,
+	title={Adaptive cluster expansion for Ising spin models},
+	author={Cocco*, Simona and Croce*, Giancarlo and Zamponi*, Francesco},
+	journal={The European Physical Journal B},
+	volume={92},
+	pages={1--17},
+	year={2019},
+	publisher={Springer},
+	pdf={https://link.springer.com/article/10.1140/epjb/e2019-100313-9},
+	abstract={We propose an algorithm to obtain numerically approximate solutions of the direct Ising problem, that is, to compute the free energy and the equilibrium observables of spin systems with arbitrary two-spin interactions. To this purpose we use the Adaptive Cluster Expansion method [S. Cocco, R. Monasson, Phys. Rev. Lett. 106, 090601 (2011)], originally developed to solve the inverse Ising problem, that is, to infer the interactions from the equilibrium correlations. The method consists in iteratively constructing and selecting clusters of spins, computing their contributions to the free energy and discarding clusters whose contribution is lower than a fixed threshold. The properties of the cluster expansion and its performance are studied in detail on one dimensional, two dimensional, random and fully connected graphs with homogeneous or heterogeneous fields and couplings. We discuss the differences between different representations (Boolean and Ising) of the spin variables.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@article{muscat2020filterdca,
+	  title={FilterDCA: interpretable supervised contact prediction using inter-domain coevolution},
+	    author={Muscat, Maureen and Croce, Giancarlo and Sarti, Edoardo and Weigt, Martin},
+	      journal={PLoS computational biology},
+	        volume={16},
+		  number={10},
+		    pages={e1007621},
+		      year={2020},
+		        publisher={Public Library of Science San Francisco, CA USA},
+			pdf={https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007621},
+			abstract={Predicting three-dimensional protein structure and assembling protein complexes using sequence information belongs to the most prominent tasks in computational biology. Recently substantial progress has been obtained in the case of single proteins using a combination of unsupervised coevolutionary sequence analysis with structurally supervised deep learning. While reaching impressive accuracies in predicting residue-residue contacts, deep learning has a number of disadvantages. The need for large structural training sets limits the applicability to multi-protein complexes; and their deep architecture makes the interpretability of the convolutional neural networks intrinsically hard. Here we introduce FilterDCA, a simpler supervised predictor for inter-domain and inter-protein contacts. It is based on the fact that contact maps of proteins show typical contact patterns, which results from secondary structure and are reflected by patterns in coevolutionary analysis. We explicitly integrate averaged contacts patterns with coevolutionary scores derived by Direct Coupling Analysis, improving performance over standard coevolutionary analysis, while remaining fully transparent and interpretable. The FilterDCA code is available at http://gitlab.lcqb.upmc.fr/muscat/FilterDCA.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+
+@article{vigue2022deciphering,
+	  title={Deciphering polymorphism in 61,157 Escherichia coli genomes via epistatic sequence landscapes},
+	    author={Vigu{\'e}*, Lucile and Croce*, Giancarlo and Petitjean, Marie and Rupp{\'e}, Etienne and Tenaillon, Olivier and Weigt, Martin},
+	      journal={Nature Communications},
+	        volume={13},
+		  number={1},
+		    pages={4030},
+		      year={2022},
+		        publisher={Nature Publishing Group UK London},
+	  pdf={https://www.nature.com/articles/s41467-022-31643-3},
+	  abstract={Characterizing the effect of mutations is key to understand the evolution of protein sequences and to separate neutral amino-acid changes from deleterious ones. Epistatic interactions between residues can lead to a context dependence of mutation effects. Context dependence constrains the amino-acid changes that can contribute to polymorphism in the short term, and the ones that can accumulate between species in the long term. We use computational approaches to accurately predict the polymorphisms segregating in a panel of 61,157 Escherichia coli genomes from the analysis of distant homologues. By comparing a context-aware Direct-Coupling Analysis modelling to a non-epistatic approach, we show that the genetic context strongly constrains the tolerable amino acids in 30\% to 50\% of amino-acid sites. The study of more distant species suggests the gradual build-up of genetic context over long evolutionary timescales by the accumulation of small epistatic contributions.},
+	preview={ecoli.png},
+	selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{camviel2022both,
+	  title={Both APRIL and antibody-fragment-based CAR T cells for myeloma induce BCMA downmodulation by trogocytosis and internalization},
+	    author={Camviel, Nicolas and Wolf, Benita and Croce, Giancarlo and Gfeller, David and Zoete, Vincent and Arber, Caroline},
+	      journal={Journal for Immunotherapy of Cancer},
+	        volume={10},
+		  number={11},
+		    year={2022},
+		      publisher={BMJ Publishing Group},
+	  pdf={https://jitc.bmj.com/content/10/11/e005091}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{gfeller2023improved,
+	  title={Improved predictions of antigen presentation and TCR recognition with MixMHCpred2. 2 and PRIME2. 0 reveal potent SARS-CoV-2 CD8+ T-cell epitopes},
+	    author={Gfeller, David and Schmidt, Julien and Croce, Giancarlo and Guillaume, Philippe and Bobisse, Sara and Genolet, Raphael and Queiroz, Lise and Cesbron, Julien and Racle, Julien and Harari, Alexandre},
+	      journal={Cell Systems},
+	        volume={14},
+		  number={1},
+		    pages={72--83},
+		      year={2023},
+		        publisher={Elsevier},
+	  pdf={https://www.sciencedirect.com/science/article/pii/S2405471222004707},
+	  abstract={The recognition of pathogen or cancer-specific epitopes by CD8+ T cells is crucial for the clearance of infections and the response to cancer immunotherapy. This process requires epitopes to be presented on class I human leukocyte antigen (HLA-I) molecules and recognized by the T-cell receptor (TCR). Machine learning models capturing these two aspects of immune recognition are key to improve epitope predictions. Here, we assembled a high-quality dataset of naturally presented HLA-I ligands and experimentally verified neo-epitopes. We then integrated these data in a refined computational framework to predict antigen presentation (MixMHCpred2.2) and TCR recognition (PRIME2.0). The depth of our training data and the algorithmic developments resulted in improved predictions of HLA-I ligands and neo-epitopes. Prospectively applying our tools to SARS-CoV-2 proteins revealed several epitopes. TCR sequencing identified a monoclonal response in effector/memory CD8+ T cells against one of these epitopes and cross-reactivity with the homologous peptides from other coronaviruses.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{racle2023machine,
+	  title={Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes},
+	    author={Racle, Julien and Guillaume, Philippe and Schmidt, Julien and Michaux, Justine and Larabi, Am{\'e}d{\'e} and Lau, Kelvin and Perez, Marta AS and Croce, Giancarlo and Genolet, Rapha{\"e}l and Coukos, George and others},
+	      journal={Immunity},
+	        volume={56},
+		  number={6},
+		    pages={1359--1375},
+		      year={2023},
+		        publisher={Elsevier},
+	  pdf={www.sciencedirect.com/science/article/pii/S1074761323001292},
+	  abstract={CD4+ T cells orchestrate the adaptive immune response against pathogens and cancer by recognizing epitopes presented on class II major histocompatibility complex (MHC-II) molecules. The high polymorphism of MHC-II genes represents an important hurdle toward accurate prediction and identification of CD4+ T cell epitopes. Here we collected and curated a dataset of 627,013 unique MHC-II ligands identified by mass spectrometry. This enabled us to precisely determine the binding motifs of 88 MHC-II alleles across humans, mice, cattle, and chickens. Analysis of these binding specificities combined with X-ray crystallography refined our understanding of the molecular determinants of MHC-II motifs and revealed a widespread reverse-binding mode in HLA-DP ligands. We then developed a machine-learning framework to accurately predict binding specificities and ligands of any MHC-II allele. This tool improves and expands predictions of CD4+ T cell epitopes and enables us to discover viral and bacterial epitopes following the aforementioned reverse-binding mode.}
 }
