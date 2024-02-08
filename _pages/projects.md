@@ -10,21 +10,20 @@ nav_order: 2
 
 ## T cell - epitope interactions
 
-T cells play a vital role in our body's defence against viruses, bacteria and even cancer.
-T cells can recognize molecular fragments presented by infected or cancerous cells (the so-called epitopes) and initiate a response to eliminate them. Below a video of a **T cell targeting and killing a cancer cell**.
+T cells play a critical role in our body's defence against viruses, bacteria, and even cancer.
+T cells can recognize molecular fragments presented by infected or cancerous cells (the so-called epitopes) and initiate a response to eliminate them. Here is a video showing a **T cell targeting and killing a cancer cell**.
 
 <img align="left" src="../assets/img/t_cell_killing_cancer.gif" width="300" style="border: 5px solid white;">
 
-Unfortunately, determining which T cells can target a specific epitope remains challenging, both from
-a computational and experimental point of view. To address this problem, I developed **[MixTCRpred](https://github.com/GfellerLab/MixTCRpred), a state-of-the-art deep learning model that takes the T cell and the epitope sequence as inputs and predicts the likelihood of their
-interaction.** Accurate prediction can speed up the development of treatments that aim at using or engineering T cells to target
-specific peptides displayed on MHC molecules, such as cancer neo-epitopes.
+Unfortunately, determining which T cells can target which epitopes remains challenging, both from
+computational and experimental point of views. To address this problem, I developed **[MixTCRpred](https://github.com/GfellerLab/MixTCRpred), a state-of-the-art deep learning model that takes the T cell and the epitope sequence as inputs and predicts the likelihood of their
+interaction.** Accurate predictions are needed to speed up the development of treatments that aim at identifying or engineering T cells to target cancer epitopes.
 Have a look at the [paper](https://www.biorxiv.org/content/10.1101/2023.09.13.557561v1) and at the code on [Github](https://github.com/GfellerLab/MixTCRpred).
 
 
 ## Modeling protein evolution
 
-Over the course of evolution, genetic mutations can accumulate in the DNA sequences that code for proteins. These mutations can lead to changes in protein amino acid sequences and affect their structure and function.
+Over the course of evolution, genetic mutations accumulate in the DNA sequences that code for proteins. These mutations can lead to changes in protein amino acid sequences and affect their structure and function.
 **Is it possible to model protein evolution, i.e. to anticipate which amino acid mutations will appear in the future?**
 
 <img align="center" src="../assets/img/dca_covid.png" width="800" style="border: 5px solid white;">
