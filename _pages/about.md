@@ -13,7 +13,7 @@ profile:
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 I am a postdoctoral researcher and Marie Sk&#322;odowska-Curie fellow ([MT-PoINT project](https://cordis.europa.eu/project/id/101027973)) in the [David Gfeller Lab](https://gfellerlab.org/). I develop data-driven methods to model T cell interactions with cancer cells, with the aim of accelerating personalized cancer immunotherapies. 
