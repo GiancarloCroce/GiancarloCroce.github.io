@@ -20,7 +20,7 @@ computational and experimental point of views. To address this problem, I develo
 interaction.** Accurate predictions are needed to speed up the development of treatments that aim at identifying or engineering T cells to target cancer epitopes.
 Have a look at the [paper](https://www.biorxiv.org/content/10.1101/2023.09.13.557561v1) and at the code on [Github](https://github.com/GfellerLab/MixTCRpred).
 
-
+  
 ## Modeling protein evolution
 
 Over the course of evolution, genetic mutations accumulate in the DNA sequences that code for proteins. These mutations can lead to changes in protein amino acid sequences and affect their structure and function.
