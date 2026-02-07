@@ -1,49 +1,120 @@
-- title: 
+- title:
   type: map
   contents:
     - name: Full Name
       value: Giancarlo Croce
     - name: Languages
-      value: Italian, English, French
+      value: Italian (native), English (fluent), French (fluent)
+    - name: Orcid
+      value: <a href="https://orcid.org/0000-0003-0944-1884">0000-0003-0944-1884</a>
 
-- title: Experience
+- title: Research Interests
+  type: list
+  contents:
+    - My research sits at the interface of biology, artificial intelligence, and statistical modelling to tackle fundamental questions in immunology. I develop data-driven approaches to predict T- and B-cell receptor–antigen interactions. Previously, I developed computational tools to model protein evolution and protein–protein interactions.
+
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Postdoctoral Fellow 
-      institution: University of Lausanne, Ludwig center for cancer research, Lausanne, Switzerland
-      year: 2020 - Current 
+    - title: Machine Learning Scientist
+      institution: IMPRINT - Focused Research Organization (FRO)
+      year: Sep 2025 - Current
       description:
+        - Non-profit startup to decode the immune system
+    - title: Postdoctoral Fellow
+      institution: University of Lausanne - Ludwig center for cancer research, Lausanne, Switzerland
+      year: Jan 2020 - Jun 2025
+      description:
+        - Marie Skłodowska-Curie Individual Fellowship (MT-PoINT project)
+        - Cancer Immune Recognition Lab - David Gfeller Lab
         - Machine learning and deep learning models to predict T cell-epitope interactions
         - Analysis of cancer genomes and of T cell repertoire sequence data
-    - title: PhD
-      institution: Sorbonne Université, Laboratory of Computational and Quantitative Biology, Paris, France
-      year: 2016 - 2019
-      description: 
-        - title: Towards a genome-scale co-evolutionary analysis. Supervisor<span>&#58;</span> Martin Weigt. Co-supervisor<span>&#58;</span> Olivier Tenaillon.
-          contents:
-            - Modeling protein evolution
-            - Inference of protein-protein interaction networks 
-            - Predictions of amino acid contacts in proteins and protein complexes 
 
 - title: Education
   type: time_table
-
   contents:
-    - title: Master of Science in Statistical Physics and Complex System 
-      institution: Ecole Normale Supérieure, Paris, France
-      year: 2014 - 2016
+    - title: PhD, Computational Biology
+      institution: Sorbonne University, Paris, France
+      year: Oct 2016 - Oct 2019
       description:
-        - title: Master 2 thesis.
-          contents:
-            - Out of equilibrium dynamics of spin glass models. Supervisor<span>&#58;</span> Cristina Toninelli
-        - title: Master 1 thesis.
-          contents:
-            -  Adaptive Cluster expansion for Ising model. Supervisors<span>&#58;</span> Simona Cocco and Francesco Zamponi
-    - title:  Bachelor of Science in Physics
-      institution: Università degli studi di Pavia, Pavia, Italy 
-      year: 2014
+        - Computational and Quantitative Biology Lab
+        - "Thesis: Towards a genome-scale coevolutionary analysis"
+        - "Supervisor: Martin Weigt. Co-supervisor: Olivier Tenaillon"
+    - title: MSc in Theoretical and Statistical Physics
+      institution: École Normale Supérieure, Paris, France
+      year: Sep 2014 - Jun 2016
       description:
-        - title: Bachelor thesis.
-          contents:
-            - Symmetries in quantum mechanics, Casimir Operators. Supervisor<span>&#58;</span> Claudio Dappiaggi
+        - "Master thesis: Out of equilibrium dynamics of spin glass models"
+        - "Supervisor: Cristina Toninelli"
+    - title: BSc in Physics
+      institution: University of Pavia, Pavia, Italy
+      year: Sep 2011 - Jul 2014
+      description:
+        - "Thesis: Symmetries in quantum mechanics, Casimir Operators"
+        - "Supervisor: Prof. Claudio Dappiaggi"
 
+- title: Grants and Awards
+  type: time_table
+  contents:
+    - title: Remarkable Output distinction
+      institution: Swiss Bioinformatics Society
+      year: Jun 2025
+    - title: 73rd Lindau Nobel Laureate Meeting
+      institution: Selected to participate, engaging with Nobel Laureates and leading scientists
+      year: Jun 2024
+    - title: Marie Skłodowska-Curie Individual Fellowship 2020
+      institution: MT-PoINT (Motif in T cells for the Prediction of INTeractions) project at the interface between data science and immunology
+      year: Jul 2021 - Jul 2023
+    - title: Visiting researcher
+      institution: University of L'Havana (Cuba), funded by the INFERNET project
+      year: Jan 2019 - Mar 2019
+    - title: Ph.D. supporting grant
+      institution: Labex Calsimlab - Data, computing and simulation
+      year: Oct 2016 - Nov 2019
+    - title: Two-year master's scholarship for international students
+      institution: École Normale Supérieure, Paris
+      year: Sep 2014 - Jun 2016
+    - title: Student at Collegio Ghislieri
+      institution: A 450-year-old Italian institution providing housing and financial support to students enrolled at the University of Pavia
+      year: Sep 2011 - Sep 2014
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Courses
+      institution:
+      year:
+      description:
+        - "Fall 2024 - Write a review - course for master students"
+        - "Sep-Nov 2022/2023/2024 - Introduction to clinical bioinformatics - for undergraduate students"
+        - "Dec 2021 - Introduction to Cancer Genomics - for PhD students"
+    - title: Student Supervision
+      institution:
+      year:
+      description:
+        - "Master's thesis: Jikaël Ntoko, Daniel Hafez, Richie Yat-Tasi Wan"
+        - "Master's and Bachelor's Projects: Alice Chiozza, Cailyn Mae Ong, Yebeen Kim, Animesh Awasthi"
+
+- title: Recent Conferences and Talks
+  type: time_table
+  contents:
+    - title: Biohub Affiliate Symposium - Chan Zuckerberg Initiative
+      institution: New York, USA
+      year: Nov 2025
+    - title: Basel Computational Biology Conference — Bioinformatics meets AI
+      institution: Basel, Switzerland. Awarded the SIB Remarkable Output distinction
+      year: Sep 2025
+    - title: The Fourth Antwerp TCR Meeting
+      institution: Antwerp, Belgium
+      year: May 2025
+    - title: Collaborative Research Center 1310 - Predictability in Evolution
+      institution: University of Cologne, Germany
+      year: Jan 2025
+    - title: Talk at the department of computational biology
+      institution: University of Lausanne, Switzerland
+      year: Oct 2024
+
+- title: Reviewing Activities
+  type: list
+  contents:
+    - "Reviewer for: Nature Communications, Bioinformatics, Cell Systems, Cell Genomics, Immunoinformatics, Plos Computational Biology, Plos ONE"

@@ -42,6 +42,25 @@ p.location {
   white-space: nowrap;
 }
 
+/* CV description items without bullet points */
+.cv-description-item {
+  margin-bottom: 0.15rem;
+  font-size: 0.9rem;
+}
+
+/* Prevent date badges from overlapping with content */
+.card-text .list-group-item .row {
+  flex-wrap: nowrap;
+}
+
+/* Let the content column fill remaining space and wrap text properly */
+.card-text .list-group-item .row > div:last-child {
+  flex: 1;
+  min-width: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 i.iconlocation {
   color: var(--global-theme-color);
   font-size: 0.8rem;

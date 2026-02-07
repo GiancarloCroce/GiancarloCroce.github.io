@@ -3,12 +3,12 @@
       <li class="list-group-item">
         <div class="row">
           {% if content.year %}
-            <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
+            <div class="col-xs-2 cl-sm-2 col-md-auto text-center" style="min-width: 130px;">
               <table class="table-cv">
                 <tbody>
                   <tr>
                     <td>
-                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">{{ content.year }}</span>
+                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 130px; white-space: nowrap; font-size: 0.65rem;">{{ content.year }}</span>
                     </td>
                   </tr>
                   {% if content.location %}
@@ -23,7 +23,7 @@
               
             </div>
           {% endif %}
-          <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+          <div class="col mt-2 mt-md-0">
             {% if content.title %}
             <h6 class="title font-weight-bold ml-1 ml-md-4">{{content.title}}</h6>
             {% endif %}
@@ -49,40 +49,40 @@
               <div class="ml-1 ml-md-4 ">{{ content.maindescription }}</div>
             {% endif %}
             {% if content.description %}
-              <ul class="items">
+              <div class="items ml-1 ml-md-4">
                 {% for item in content.description %}
-                  <li>
+                  <div class="cv-description-item">
                     {% if item.contents %}
                       <span class="item-title">{{ item.title }}</span>
-                      <ul class="subitems">
+                      <div class="subitems">
                       {% for subitem in item.contents %}
-                        <li><span class="subitem">{{ subitem }}</span></li>
+                        <div><span class="subitem">{{ subitem }}</span></div>
                       {% endfor %}
-                      </ul>
+                      </div>
                     {% else %}
                       <span class="item">{{ item }}</span>
                     {% endif %}
-                  </li>
+                  </div>
                 {% endfor %}
-              </ul>
+              </div>
             {% endif %}
             {% if content.items %}
-              <ul class="items">
+              <div class="items ml-1 ml-md-4">
                 {% for item in content.items %}
-                  <li>
+                  <div class="cv-description-item">
                     {% if item.contents %}
                       <span class="item-title">{{ item.title }}</span>
-                      <ul class="subitems">
+                      <div class="subitems">
                       {% for subitem in item.contents %}
-                        <li><span class="subitem">{{ subitem }}</span></li>
+                        <div><span class="subitem">{{ subitem }}</span></div>
                       {% endfor %}
-                      </ul>
+                      </div>
                     {% else %}
                       <span class="item">{{ item }}</span>
                     {% endif %}
-                  </li>
+                  </div>
                 {% endfor %}
-              </ul>
+              </div>
             {% endif %}
             {% if content.linkitems %}
               <div class="container-links ml-1 ml-md-4">
