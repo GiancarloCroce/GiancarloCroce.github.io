@@ -5,30 +5,30 @@
       value: Giancarlo Croce
     - name: Languages
       value: Italian (native), English (fluent), French (fluent)
-    - name: Orcid
+    - name: ORCID
       value: <a href="https://orcid.org/0000-0003-0944-1884">0000-0003-0944-1884</a>
 
 - title: Research Interests
   type: list
   contents:
-    - My research sits at the interface of biology, artificial intelligence, and statistical modelling to tackle fundamental questions in immunology. I develop data-driven approaches to predict T- and B-cell receptor–antigen interactions. Previously, I developed computational tools to model protein evolution and protein–protein interactions.
+    - My research sits at the interface of biology, artificial intelligence, and statistical modeling to tackle fundamental questions in immunology. I develop data-driven approaches to predict T- and B-cell receptor–antigen interactions. Previously, I developed computational tools to model protein evolution and protein–protein interactions.
 
 - title: Professional Experience
   type: time_table
   contents:
     - title: Machine Learning Scientist
       institution: IMPRINT - Focused Research Organization (FRO)
-      year: Sep 2025 - Current
+      year: Sep 2025 - Present
       description:
-        - Non-profit startup to decode the immune system
+        - Non-profit research organization working to decode the immune system
     - title: Postdoctoral Fellow
-      institution: University of Lausanne - Ludwig center for cancer research, Lausanne, Switzerland
+      institution: University of Lausanne - Ludwig Institute for Cancer Research, Lausanne, Switzerland
       year: Jan 2020 - Jun 2025
       description:
         - Marie Skłodowska-Curie Individual Fellowship (MT-PoINT project)
-        - Cancer Immune Recognition Lab - David Gfeller Lab
-        - Machine learning and deep learning models to predict T cell-epitope interactions
-        - Analysis of cancer genomes and of T cell repertoire sequence data
+        - David Gfeller Lab
+        - Machine learning and deep learning models to predict T-cell–epitope interactions
+        - Analysis of cancer genomes and of T-cell repertoire sequence data
 
 - title: Education
   type: time_table
@@ -50,15 +50,15 @@
       institution: University of Pavia, Pavia, Italy
       year: Sep 2011 - Jul 2014
       description:
-        - "Thesis: Symmetries in quantum mechanics, Casimir Operators"
+        - "Thesis: Symmetries in quantum mechanics, Casimir operators"
         - "Supervisor: Prof. Claudio Dappiaggi"
 
 - title: Grants and Awards
   type: time_table
   contents:
     - title: Remarkable Output distinction
-      institution: Swiss Bioinformatics Society
-      year: Jun 2025
+      institution: SIB Swiss Institute of Bioinformatics
+      year: Sep 2025
     - title: 73rd Lindau Nobel Laureate Meeting
       institution: Selected to participate, engaging with Nobel Laureates and leading scientists
       year: Jun 2024
@@ -66,11 +66,11 @@
       institution: MT-PoINT (Motif in T cells for the Prediction of INTeractions) project at the interface between data science and immunology
       year: Jul 2021 - Jul 2023
     - title: Visiting researcher
-      institution: University of L'Havana (Cuba), funded by the INFERNET project
+      institution: University of Havana (Cuba), funded by the INFERNET project
       year: Jan 2019 - Mar 2019
-    - title: Ph.D. supporting grant
+    - title: PhD supporting grant
       institution: Labex Calsimlab - Data, computing and simulation
-      year: Oct 2016 - Nov 2019
+      year: Oct 2016 - Oct 2019
     - title: Two-year master's scholarship for international students
       institution: École Normale Supérieure, Paris
       year: Sep 2014 - Jun 2016
@@ -85,8 +85,8 @@
       institution:
       year:
       description:
-        - "Fall 2024 - Write a review - course for master students"
-        - "Sep-Nov 2022/2023/2024 - Introduction to clinical bioinformatics - for undergraduate students"
+        - "Fall 2024 - Write a review - course for master's students"
+        - "Sep-Nov 2022/2023/2024 - Introduction to Clinical Bioinformatics - for undergraduate students"
         - "Dec 2021 - Introduction to Cancer Genomics - for PhD students"
     - title: Student Supervision
       institution:
@@ -110,11 +110,11 @@
     - title: Collaborative Research Center 1310 - Predictability in Evolution
       institution: University of Cologne, Germany
       year: Jan 2025
-    - title: Talk at the department of computational biology
+    - title: Talk at the Department of Computational Biology
       institution: University of Lausanne, Switzerland
       year: Oct 2024
 
 - title: Reviewing Activities
   type: list
   contents:
-    - "Reviewer for: Nature Communications, Bioinformatics, Cell Systems, Cell Genomics, Immunoinformatics, Plos Computational Biology, Plos ONE"
+    - "Reviewer for: Nature Communications, Bioinformatics, Cell Systems, Cell Genomics, ImmunoInformatics, PLOS Computational Biology, PLOS ONE"
